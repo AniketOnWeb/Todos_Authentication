@@ -35,6 +35,7 @@ export default createGlobalStyle`
         font-family : 'Roboto, sans-serrif';
         font-weight : 400;
         line-height : 1.6;
+        background-color: black;
     }
 
     button ,a , input, textarea{
@@ -42,5 +43,4 @@ export default createGlobalStyle`
         text-decoration: none; 
         font-family : inherit;
     }
-
 `;

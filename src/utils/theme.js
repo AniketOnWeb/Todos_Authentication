@@ -18,4 +18,16 @@ const theme = {
   }
 };
 
+import React, { Component } from "react";
+
+export default class theme extends Component {
+  render() {
+    return (
+      <div>
+        <h1>ksdjahiajjxl</h1>
+      </div>
+    );
+  }
+}
+
 export default theme;
