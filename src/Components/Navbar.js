@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  position: absolute;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-main);
   top: 0;
   left: 0;
   width: 100%;
@@ -10,7 +13,17 @@ const Wrapper = styled.div`
 `;
 
 const Navbar = () => {
-  return <Wrapper>kkknknk</Wrapper>;
+  return (
+    <Wrapper>
+      <div>Logo</div>
+      <nav>
+        <ul>
+          <li>1</li>
+          <li>3</li>
+        </ul>
+      </nav>
+    </Wrapper>
+  );
 };
 
 export default Navbar;
