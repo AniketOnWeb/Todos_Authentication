@@ -3,7 +3,11 @@ import { render } from "react-dom";
 import Layout from "./Layout/Layout";
 
 const App = () => {
-  return <Layout>hhiiiii</Layout>;
+  return (
+    <Layout>
+      <div>hiiis</div>
+    </Layout>
+  );
 };
 
 render(<App />, document.getElementById("root"));

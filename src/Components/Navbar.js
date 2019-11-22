@@ -5,11 +5,11 @@ const Wrapper = styled.div`
   position: fixed;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-main);
+  background-color: #003459;
   top: 0;
   left: 0;
   width: 100%;
-  height: 6rem;
+  height: 4rem;
 `;
 
 const Navbar = () => {

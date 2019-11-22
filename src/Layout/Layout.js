@@ -6,8 +6,8 @@ import Navbar from "../Components/Navbar";
 
 export const MainWrapper = styled.div`
   width: 100%;
-  min-height: calc(100vh - 6rem);
-  margin-top: 6rem;
+  min-height: calc(100vh - 4rem);
+  margin-top: 4rem;
 `;
 
 const Layout = ({ Children }) => {
