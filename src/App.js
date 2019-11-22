@@ -1,12 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
+import Layout from "./Layout/Layout";
 
 const App = () => {
-  return (
-    <div>
-      <h1>Succesfully rendered</h1>
-    </div>
-  );
+  return <Layout>hhiiiii</Layout>;
 };
 
 render(<App />, document.getElementById("root"));
